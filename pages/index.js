@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Nav } from './src/components/nav'
 import { Hero } from './src/components/hero'
+import { Faq } from './src/components/info_section'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <Nav></Nav>
       <Hero></Hero>
+      <Faq></Faq>
     </div>
   )
 }
