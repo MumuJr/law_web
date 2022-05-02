@@ -320,7 +320,7 @@ module.exports = {
         '30': '.3',
       },
       boxShadow: {
-        outline: '0 0 0 3px rgba(101, 31, 255, 0.4)',
+        outline: '0 0 0 3px rgba(184, 136, 82, 0.4)',
       },
     },
   },

@@ -24,18 +24,16 @@ export const Contact = () => {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-white rounded shadow-2xl p-7 sm:p-10">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
-                  The quick, brown fox <br className="hidden md:block" />
-                  jumps over a lazy dog
+                  Contact me to  <br className="hidden md:block" />
+                  schedule a consultation
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-black-200 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-                  quae.
+                Use of this contact form and/or communicating with Vizcaino Bonifasi Law does not create an attorney-client relationship. Do not send confidential information through this website. 
                 </p>
                 <a
                   href="/"
                   aria-label=""
-                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700"
+                  className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-light-green-900 hover:text-beige-300"
                 >
                   Learn more
                   <svg
@@ -50,7 +48,7 @@ export const Contact = () => {
               <div className="w-full max-w-xl xl:px-8 xl:w-5/12">
                 <div className="bg-white rounded shadow-2xl p-7 sm:p-10">
                   <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
-                    Sign up for updates
+                    Contact
                   </h3>
                   <form>
                     <div className="mb-1 sm:mb-2">
@@ -58,13 +56,13 @@ export const Contact = () => {
                         htmlFor="firstName"
                         className="inline-block mb-1 font-medium"
                       >
-                        First name
+                        First Name
                       </label>
                       <input
                         placeholder="John"
                         required
                         type="text"
-                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                         id="firstName"
                         name="firstName"
                       />
@@ -74,13 +72,13 @@ export const Contact = () => {
                         htmlFor="lastName"
                         className="inline-block mb-1 font-medium"
                       >
-                        Last name
+                        Last Name
                       </label>
                       <input
                         placeholder="Doe"
                         required
                         type="text"
-                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                         id="lastName"
                         name="lastName"
                       />
@@ -96,7 +94,7 @@ export const Contact = () => {
                         placeholder="john.doe@example.org"
                         required
                         type="text"
-                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
+                        className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                         id="email"
                         name="email"
                       />
@@ -106,11 +104,11 @@ export const Contact = () => {
                         type="submit"
                         className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-light-green-900 hover:bg-beige-300 focus:shadow-outline focus:outline-none"
                       >
-                        Subscribe
+                        Send
                       </button>
                     </div>
                     <p className="text-xs text-gray-600 sm:text-sm">
-                      We respect your privacy. Unsubscribe at any time.
+                    The choice of lawyer is an important decision and should not be based solely on advertisements.
                     </p>
                   </form>
                 </div>
