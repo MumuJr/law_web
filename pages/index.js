@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import { Nav } from '../components/nav'
-import { Hero } from '../components/hero'
-import { Faq } from '../components/info_section'
-import { Contact } from '../components/contact'
-import { Footer } from '../components/footer'
-import { Feature } from '../components/feature'
+import { Nav } from './src/components/nav'
+import { Hero } from './src/components/hero'
+import { Faq } from './src/components/info_section'
+import { Contact } from './src/components/contact'
+import { Footer } from './src/components/footer'
+import { Feature } from './src/components/feature'
 
 export default function Home() {
   return (
