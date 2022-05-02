@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import profilePic from '../../../public/002.jpg'
+import profilePic from '../public/002.jpg'
 import Link from 'next/link'
 
 
