@@ -32,7 +32,6 @@ export const Contact = () => {
                             </p>
                             <Link href="/">
                                 <a
-
                                     aria-label=""
                                     className="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-light-green-900 hover:text-beige-300"
                                 >
