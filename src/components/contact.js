@@ -61,7 +61,7 @@ export const Contact = () => {
                                         </label>
                                         <input
                                             placeholder="John"
-                                            required
+                                            
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                                             id="firstName"
@@ -77,7 +77,7 @@ export const Contact = () => {
                                         </label>
                                         <input
                                             placeholder="Doe"
-                                            required
+                                            
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                                             id="lastName"
@@ -93,7 +93,39 @@ export const Contact = () => {
                                         </label>
                                         <input
                                             placeholder="john.doe@example.org"
-                                            required
+                                            
+                                            type="text"
+                                            className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
+                                            id="email"
+                                            name="email"
+                                        />
+                                    </div>
+                                    <div className="mb-1 sm:mb-2">
+                                        <label
+                                            htmlFor="number"
+                                            className="inline-block mb-1 font-medium"
+                                        >
+                                            Phone Number
+                                        </label>
+                                        <input
+                                            placeholder="555-555-5555"
+                                            
+                                            type="tel"
+                                            className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
+                                            id="email"
+                                            name="number"
+                                        />
+                                    </div>
+                                    <div className="mb-1 sm:mb-2">
+                                        <label
+                                            htmlFor="email"
+                                            className="inline-block mb-1 font-medium"
+                                        >
+                                            Reason For Contact
+                                        </label>
+                                        <textarea 
+                                           
+                                            
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
                                             id="email"
