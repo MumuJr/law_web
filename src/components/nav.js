@@ -43,18 +43,7 @@ export const Nav = () => {
                                 </a>
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/">
-                                <a
-
-                                    aria-label="Product pricing"
-                                    title="Product pricing"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-beige-300"
-                                >
-                                    Blog
-                                </a>
-                            </Link>
-                        </li>
+                      
                     </ul>
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>

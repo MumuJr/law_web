@@ -19,8 +19,8 @@ export default function Home() {
       <Nav></Nav>
       <Hero></Hero>
       <Feature></Feature>
-      <Contact></Contact>
       <Faq></Faq>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   )

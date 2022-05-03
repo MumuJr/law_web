@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Footer = () => {
     return (
         <div className="flex flex-col justify-center items-center  px-10 pt-16 sm:max-w-xl md:max-w-full bg-light-green-900 ">
-            <div className="grid row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid mb-8 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5">
                 <div className="sm:col-span-1">
                     <Link href="/">
                         <a
@@ -12,7 +12,7 @@ export const Footer = () => {
                             className="inline-flex items-center"
                         >
 
-                            <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
+                            <span className="text-xl font-bold tracking-wide text-white uppercase underline">
                                 VIZCAINO BONIFASI LAW
                             </span>
                         </a>
@@ -28,7 +28,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="space-y-2 text-sm">
-                    <p className="text-base font-bold tracking-wide text-white">
+                    <p className="text-base font-bold tracking-wide text-white underline">
                         Contacts
                     </p>
                     <div className="flex">
@@ -73,7 +73,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <span className="text-base font-bold tracking-wide text-white">
+                    <span className="text-base font-bold tracking-wide text-white underline">
                         Social
                     </span>
                     <div className="flex items-center mt-1 space-x-3">
@@ -119,37 +119,6 @@ export const Footer = () => {
                 <p className="text-sm text-white">
                     © Copyright 2020 Lorem Inc. All rights reserved.
                 </p>
-                <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-                    <li>
-                        <Link href="/">
-                            <a
-                                className="text-sm text-white transition-colors duration-300 hover:text-beige-300"
-                            >
-                                F.A.Q
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a
-
-                                className="text-sm text-white transition-colors duration-300 hover:text-beige-300"
-                            >
-                                Privacy Policy
-                            </a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/">
-                            <a
-
-                                className="text-sm text-white transition-colors duration-300 hover:text-beige-300"
-                            >
-                                Terms &amp; Conditions
-                            </a>
-                        </Link>
-                    </li>
-                </ul>
             </div>
         </div>
     );
