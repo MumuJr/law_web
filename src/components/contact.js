@@ -12,7 +12,7 @@ export const Contact = () => {
             />
             <div className="relative bg-opacity-75 bg-deep-beige-50">
                 <svg
-                    className="absolute inset-x-0 bottom-0 text-light-green-900"
+                    className="absolute inset-x-0 -bottom-1 text-light-green-900"
                     viewBox="0 0 1160 163"
                 >
                     <path
