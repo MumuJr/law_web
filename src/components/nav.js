@@ -26,7 +26,7 @@ export const Nav = () => {
 
                                     aria-label="Our product"
                                     title="Our product"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-beige-300"
                                 >
                                     Practice Areas
                                 </a>
@@ -37,7 +37,7 @@ export const Nav = () => {
                                 <a
                                     aria-label="Our product"
                                     title="Our product"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-beige-300"
                                 >
                                     About
                                 </a>
@@ -49,7 +49,7 @@ export const Nav = () => {
 
                                     aria-label="Product pricing"
                                     title="Product pricing"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-beige-300"
                                 >
                                     Blog
                                 </a>
@@ -63,7 +63,7 @@ export const Nav = () => {
 
                                     aria-label="About us"
                                     title="About us"
-                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-beige-300"
                                 >
                                     Contact
                                 </a>
