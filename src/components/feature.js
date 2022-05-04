@@ -2,7 +2,7 @@ export const Feature = () => {
   return (
     <div className="background-image">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
-        <h5 className="grid mb-2 mb-8 text-4xl font-extrabold leading-none md:pl-2 bg-white rounded shadow-2xl p-7 sm:p-10 w-3/12 align-self-center justify-center">
+        <h5 className="grid mb-2 mb-8 text-4xl font-extrabold leading-none md:pl-2 bg-white rounded shadow-2xl p-7 sm:p-10 lg:w-3/12 align-self-center justify-center">
           Practice <span className="inline-block text-light-green-900 "> &nbsp; &nbsp; &nbsp; &nbsp; Areas </span>
         </h5>
         <div className="grid gap-3 row-gap-3 lg:grid-cols-3 bg-white rounded shadow-2xl p-7 sm:p-10">
