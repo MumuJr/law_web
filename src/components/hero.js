@@ -11,7 +11,7 @@ export const Hero = () => {
           <h2 className="mb-5 font-sans  font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
             Anamaria Vizcaino
             <br className="hidden md:block" />
-            J.D. | M.B.A.
+            <h1 className="text-lg">J.D. &nbsp; | &nbsp; M.B.A.</h1>
           </h2>
           <p className="mb-5 text-base text-gray-700 md:text-lg md:text-left">
             Anamaria Vizcaino throughout her studies and career has focused on the immigrant community.
@@ -98,7 +98,7 @@ export const Hero = () => {
       </div>
       <div className="position: relative inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0 ">
         <Image
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 sm:h-96 lg:h-full "
+          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 sm:h-96 lg:h-full lg:w-3/4"
           src={profilePic}
           alt="Ana Maria Vizcaino"
           layout="fill"
