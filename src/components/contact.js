@@ -1,15 +1,8 @@
-import Image from 'next/image';
-import background from '../../public/pattern-01.png'
 import Link from "next/link";
 
 export const Contact = () => {
     return (
-        <div className="relative">
-            <Image
-                src={background}
-                alt="Ana Maria Vizcaino"
-                layout="fill"
-            />
+        <div className="relative background-image">
             <div className="relative bg-opacity-75 bg-deep-beige-50">
                 <svg
                     className="absolute inset-x-0 -bottom-1 text-light-green-900"
