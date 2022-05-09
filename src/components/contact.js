@@ -111,18 +111,16 @@ export const Contact = () => {
                                     </div>
                                     <div className="mb-1 sm:mb-2">
                                         <label
-                                            htmlFor="email"
+                                            htmlFor="info"
                                             className="inline-block mb-1 font-medium"
                                         >
                                             Reason For Contact
                                         </label>
-                                        <textarea 
-                                           
-                                            
+                                        <textarea
                                             type="text"
                                             className="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-beige-300 focus:outline-none focus:shadow-outline"
-                                            id="email"
-                                            name="email"
+                                            id="info"
+                                            name="info"
                                         />
                                     </div>
                                     <div className="mt-4 mb-2 sm:mb-4">
