@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Contact = () => {
     return (
-        <div className="relative background-image">
+        <div className="relative background-image" id="contact">
             <div className="relative bg-opacity-75 bg-deep-beige-50">
                 <svg
                     className="absolute inset-x-0 -bottom-1 text-light-green-900"
@@ -16,10 +16,9 @@ export const Contact = () => {
                 <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                     <div className="flex flex-col items-center justify-between xl:flex-row">
                         <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12 bg-white rounded shadow-2xl p-7 sm:p-10">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
-                                Contact me to  <br className="hidden md:block" />
-                                schedule a consultation
-                            </h2>
+                            <div className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
+                                Schedule a consultation <br className="hidden md:block" />
+                            </div>
                             <p className="max-w-xl mb-4 text-base text-black-200 md:text-lg">
                                 Use of this contact form and/or communicating with Vizcaino Bonifasi Law does not create an attorney-client relationship. Do not send confidential information through this website.
                             </p>
@@ -44,7 +43,8 @@ export const Contact = () => {
                                 <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                                     Contact
                                 </h3>
-                                <form>
+                                <form name="contact" method="POST" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact" />
                                     <div className="mb-1 sm:mb-2">
                                         <label
                                             htmlFor="firstName"

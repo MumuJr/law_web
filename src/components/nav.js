@@ -1,27 +1,27 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/VB-LAW-HORIZONTAL.png"
 
 export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="bg-light-green-900">
+        <div className="bg-light-green-900 shadow-lg">
             <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-                <div className="relative flex items-center justify-between">
-                    <Link href="/">
-                        <a
-                            aria-label="Company"
-                            title="Company"
-                            className="inline-flex items-center"
-                        >
-                            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                <div className="relative flex items-center justify-between">                   
+                            {/* <Image
+                                src={logo}
+                                alt="Company Logo"
+                                width={200}
+                                height={100}
+                            /> */}
+                             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
                                 Vizcaino Bonifasi Law
                             </span>
-                        </a>
-                    </Link>
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
-                            <Link href="/">
+                            <Link href="#practice">
                                 <a
 
                                     aria-label="Our product"
@@ -33,7 +33,7 @@ export const Nav = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/">
+                            <Link href="#about">
                                 <a
                                     aria-label="Our product"
                                     title="Our product"
@@ -43,11 +43,11 @@ export const Nav = () => {
                                 </a>
                             </Link>
                         </li>
-                      
+
                     </ul>
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
-                            <Link href="/">
+                            <Link href="#contact">
                                 <a
 
                                     aria-label="About us"

@@ -1,6 +1,6 @@
 export const Faq = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 box-shadow" id="about">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <div>
@@ -8,7 +8,7 @@ export const Faq = () => {
                 Brand new
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            <div className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span className="relative inline-block">
                 <svg
                   viewBox="0 0 52 24"
@@ -33,7 +33,7 @@ export const Faq = () => {
                   />
                 </svg>
                 <span className="relative">A</span>
-              </span>{' '}Virtual Immigration Law Firm</h2>
+              </span>{' '}Virtual Immigration Law Firm</div>
             <p className="text-base text-gray-700 md:text-lg">
             Focusing on both high-quality legal services and excellent client experiences.
             </p>
