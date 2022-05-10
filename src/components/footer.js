@@ -20,11 +20,11 @@ export const Footer = () => {
                     <div className="mt-6 lg:max-w-sm">
                         <p className="text-sm text-white">
                             The information on this site is NOT formal legal advice.
-                          
+
                         </p>
                         <br></br>
                         <p className="text-sm text-white">
-                        The information on this site and use of this site does NOT create the formation of an attorney-client relationship and is NOT a substitute of the judgment of an attorney.
+                            The information on this site and use of this site does NOT create the formation of an attorney-client relationship and is NOT a substitute of the judgment of an attorney.
                         </p>
                         <p className="mt-4 text-sm text-white">
                             Vizcaino Bonifasi Law LLC disclaims any and all liability taken or not taken from use of this website.
@@ -49,7 +49,7 @@ export const Footer = () => {
                     </div>
                     <div className="flex">
                         <p className="mr-1 text-white">Email:</p>
-                        <Link href="/">
+                        <Link href="mailto:Anamaria@vizcainobonifasilaw.com">
                             <a
 
                                 aria-label="Our email"
@@ -62,18 +62,9 @@ export const Footer = () => {
                     </div>
                     <div className="flex">
                         <p className="mr-1 text-white">Location:</p>
-                        <Link href="/">
-                            <a
-
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                aria-label="Our address"
-                                title="Our address"
-                                className="transition-colors duration-300 text-beige-300 hover:text-white"
-                            >
-                                New Orleans, LA & Kansas City, MO
-                            </a>
-                        </Link>
+                        <p className="transition-colors duration-300 text-beige-300 hover:text-white">
+                            New Orleans, LA & Kansas City, MO
+                        </p>
                     </div>
                 </div>
                 <div>
@@ -118,13 +109,13 @@ export const Footer = () => {
                                 className="text-white transition-colors duration-300 hover:text-beige-300"
                             >
                                 <svg viewBox="0 0 31 30" fill="currentColor" className="h-5">
-                                <path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="currentColor"></path>
+                                    <path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z" fill="currentColor"></path>
                                 </svg>
                             </a>
                         </Link>
                     </div>
                     <p className="mt-4 text-sm text-white">
-                        Follow me on social media. 
+                        Follow us on social media.
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/VB-LAW-HORIZONTAL.png"
+import logo from "../../public/ANA-MARIA-03.png"
 
 export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +13,11 @@ export const Nav = () => {
                             {/* <Image
                                 src={logo}
                                 alt="Company Logo"
-                                width={200}
-                                height={100}
                             /> */}
-                             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+                            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
                                 Vizcaino Bonifasi Law
                             </span>
+                            
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
                             <Link href="#practice">
@@ -118,7 +117,7 @@ export const Nav = () => {
                                     <nav>
                                         <ul className="space-y-4">
                                             <li>
-                                                <Link href="/">
+                                                <Link href="#practice">
                                                     <a
 
                                                         aria-label="Our product"
@@ -130,7 +129,7 @@ export const Nav = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/">
+                                                <Link href="#about">
                                                     <a
 
                                                         aria-label="Our product"
@@ -142,19 +141,7 @@ export const Nav = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/">
-                                                    <a
-
-                                                        aria-label="Product pricing"
-                                                        title="Product pricing"
-                                                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                                                    >
-                                                        Blog
-                                                    </a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/">
+                                                <Link href="#contact">
                                                     <a
 
                                                         aria-label="About us"
@@ -166,7 +153,7 @@ export const Nav = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/">
+                                                <Link href="https://www.linkedin.com/in/anamaria-vizcaino-95a41289/">
                                                     Social
                                                 </Link>
                                             </li>
