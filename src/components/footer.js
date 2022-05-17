@@ -24,6 +24,11 @@ export const Footer = () => {
                         </p>
                         <br></br>
                         <p className="text-sm text-white">
+                        The choice of lawyer is an important decision and should not be based solely on advertisements. This disclaimer is provided as a requirement of the Missouri Supreme Court. 
+
+                        </p>
+                        <br></br>
+                        <p className="text-sm text-white">
                             The information on this site and use of this site does NOT create the formation of an attorney-client relationship and is NOT a substitute of the judgment of an attorney.
                         </p>
                         <p className="mt-4 text-sm text-white">

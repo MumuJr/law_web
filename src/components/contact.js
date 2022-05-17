@@ -131,9 +131,6 @@ export const Contact = () => {
                                             Send
                                         </button>
                                     </div>
-                                    <p className="text-xs text-gray-600 sm:text-sm">
-                                        The choice of lawyer is an important decision and should not be based solely on advertisements.
-                                    </p>
                                 </form>
                             </div>
                         </div>
