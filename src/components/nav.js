@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/ANA-MARIA-03.png"
+import logo from "../../public/LOGOS-ANAMARIA-01.png"
 
 export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,14 +10,12 @@ export const Nav = () => {
         <div className="bg-light-green-900 shadow-lg">
             <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="relative flex items-center justify-between">                   
-                            {/* <Image
+                            <Image
                                 src={logo}
                                 alt="Company Logo"
-                            /> */}
-                            <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                                Vizcaino Bonifasi Law
-                            </span>
-                            
+                                width={250}
+                                height={125}
+                            /> 
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
                             <Link href="#practice">

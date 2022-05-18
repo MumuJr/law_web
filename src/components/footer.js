@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/LOGOS-ANAMARIA-01.png"
 
 export const Footer = () => {
     return (
@@ -12,7 +14,7 @@ export const Footer = () => {
                             className="inline-flex items-center"
                         >
 
-                            <span className="text-xl font-bold tracking-wide text-white uppercase underline">
+                            <span className="text-xl font-bold tracking-wide text-white uppercase">
                                 VIZCAINO BONIFASI LAW
                             </span>
                         </a>
