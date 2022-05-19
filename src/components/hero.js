@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className="lg:relative flex flex-col-reverse py-8 md:py-16 lg:py-0 lg:flex-col box-shadow">
       <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
         <div className=" mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
-          <div className="mb-5 font-sans font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none text-center">
+          <div className="mb-5 font-sans font-bold text-lg tracking-tight text-gray-900 sm:leading-none text-center">
             Anamaria Vizcaino
             <br className="hidden md:block" />
             <div className="text-lg">J.D. &nbsp; | &nbsp; M.B.A.</div>
