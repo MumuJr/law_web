@@ -13,8 +13,7 @@ export const Nav = () => {
                             <Image
                                 src={logo}
                                 alt="Company Logo"
-                                width={250}
-                                height={125}
+                                layout="intrinsic"
                             /> 
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
