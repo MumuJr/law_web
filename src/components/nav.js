@@ -15,8 +15,10 @@ export const Nav = () => {
                                 alt="Company Logo"
                                 layout="intrinsic"
                             /> 
+                    <ul className="flex items-center justify-end hidden space-x-8 lg:flex">
+                    </ul>
                     <ul className="flex items-center hidden space-x-8 lg:flex">
-                        <li>
+                    <li>
                             <Link href="#practice">
                                 <a
 
@@ -39,9 +41,6 @@ export const Nav = () => {
                                 </a>
                             </Link>
                         </li>
-
-                    </ul>
-                    <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
                             <Link href="#contact">
                                 <a
