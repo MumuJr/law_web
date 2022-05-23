@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="lg:relative flex flex-col-reverse py-8 md:py-16 lg:py-0 lg:flex-col box-shadow">
+    <div className="lg:relative flex flex-col-reverse py-8 md:py-16 lg:py-0 lg:flex-col ">
       <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
         <div className=" mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
           <div className="mb-5 font-sans font-bold text-lg tracking-tight text-gray-900 sm:leading-none text-center">
@@ -12,7 +12,7 @@ export const Hero = () => {
             <br className="hidden md:block" />
             <div className="text-lg">J.D. &nbsp; | &nbsp; M.B.A.</div>
           </div>
-          <div className="md:hidden py-4">
+          <div className="lg:hidden py-4">
             <Image
               className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 sm:h-96 lg:h-full lg:w-3/4"
               src={profilePic}

@@ -5,6 +5,7 @@ import { Faq } from '../src/components/info_section'
 import { Contact } from '../src/components/contact'
 import { Footer } from '../src/components/footer'
 import { Feature } from '../src/components/feature'
+import { Education } from '../src/components/education'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 
       <Nav></Nav>
       <Hero></Hero>
+      <Education></Education>
       <Feature></Feature>
       <Faq></Faq>
       <Contact></Contact>
