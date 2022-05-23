@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="lg:relative flex flex-col-reverse py-8 md:py-16 lg:py-0 lg:flex-col ">
-      <div className="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
+    <div className="flex py-8 md:py-16 lg:py-0 lg:px-10 lg:flex-col  ">
+      <div className="flex w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
         <div className=" mb-0 lg:max-w-lg lg:pr-8 xl:pr-6">
           <div className="mb-5 font-sans font-bold text-lg tracking-tight text-gray-900 sm:leading-none text-center">
             Anamaria Vizcaino
@@ -127,16 +127,15 @@ export const Hero = () => {
               </div>
             </div>
           </div>
+         
         </div>
-      </div>
-      <div className="position: relative inset-y-0 top-0 right-0 w-full max-w-xl px-4 mx-auto mb-6 md:px-0 lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0 ">
+        <div className=" md:w-full lg:max-w-full xs:hidden lg:block">
         <Image
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 sm:h-96 lg:h-full lg:w-3/4"
+        className="object-contain w-full rounded shadow-lg lg:rounded-none lg:shadow-none lg:h-full"
           src={profilePic}
-          alt="Ana Maria Vizcaino"
-          layout="fill"
-          objectFit="contain"
+          alt="Ana Maria Vizcaino"      
         />
+      </div>
       </div>
     </div>
   );

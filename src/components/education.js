@@ -1,14 +1,14 @@
 export const Education = () => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2 lg:pb-10 lg:py-0 box-shadow">
-        <div className="grid gap-8 row-gap-5 lg:grid-cols-3">
-          <div className="bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-2 lg:pb-10 lg:py-2 box-shadow">
+        <div className="grid gap-6 row-gap-5 lg:grid-cols-6">
+          <div className="lg:col-span-3 bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl ">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-            <div className="relative p-5 bg-white rounded-sm">
-              <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
+            <div className="relative p-5 bg-white rounded-sm h-full">
+              <div className="flex flex-col mb-2 lg:items-center lg:flex-row ">
                 <h6 className="font-semibold leading-5">Education</h6>
               </div>
               <ul className="mb-2 text-sm text-gray-900">
@@ -24,28 +24,28 @@ export const Education = () => {
             </div>
           </div>
          
-          <div className="bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+          <div className="lg:col-span-2 bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-            <div className="relative p-5 bg-white rounded-sm">
+            <div className="relative p-5 bg-white rounded-sm h-full">
               <div className="flex flex-col mb-2 lg:items-center lg:flex-row">
                 <h6 className="font-semibold leading-5">Memberships</h6>
               </div>
               <ul className="mb-2 text-sm text-gray-900">
-              Juris Doctor, Tulane Law School
+              Louisiana State Bar Association
               </ul>
               <ul className="mb-2 text-sm text-gray-900">
-              Master of Business Administration, Florida State University
+              American Immigration Lawyers Association (AILA)
               </ul>
               <ul className="mb-2 text-sm text-gray-900">
-              Bachelor of Arts in International Relations, Tufts University
+              American Bar Association (ABA)
               </ul>
              
             </div>
           </div>
-          <div className="bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+          <div className=" lg:col-span-1 bg-beige-300 relative p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
             <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
             <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
             <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
